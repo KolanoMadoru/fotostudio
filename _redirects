@@ -1,0 +1,9 @@
+# Handle single page application routing
+# All requests to non-existent files should be served from index.html
+/*    /index.html   200
+
+# API routes (if needed in the future)
+/api/*  404
+
+# Admin routes (if needed in the future)
+/admin/*  404

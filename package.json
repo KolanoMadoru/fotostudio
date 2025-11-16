@@ -1,0 +1,27 @@
+{
+  "name": "studio-foto-website",
+  "version": "1.0.0",
+  "description": "Studio foto profesional website untuk Netlify deployment",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build process needed for static site'",
+    "start": "python3 -m http.server 8080 || npx serve . -p 8080",
+    "dev": "python3 -m http.server 8080 || npx serve . -p 8080",
+    "preview": "python3 -m http.server 8080 || npx serve . -p 8080"
+  },
+  "keywords": [
+    "studio-foto",
+    "photography",
+    "website",
+    "static",
+    "netlify"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
